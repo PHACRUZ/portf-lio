@@ -1,0 +1,85 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #000; 
+    height: 100vh;
+}
+   
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a{
+    color: #fff;   
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: fff;
+    transform: scale(1.05);
+
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #d2d2d2;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .btn-contato button{
+    box-shadow: 0px 0px 8px #d2d2d2;
+}
+
+.biografia{
+   text-align: center;
+  
+}
+.biografia p{
+    color: #fff;
+    text-align: justify;
+    margin: 40px 0;
+    padding: 40px 4%;
+    padding-top: 0;
+    font-size: 22px;
+    
+}
+.biografia h2{
+    color: #fff;
+    padding: 20px;  
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+  
+
+
