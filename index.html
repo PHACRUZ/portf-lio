@@ -13,7 +13,10 @@
      <!-- FIM Bootrtrap ICONS-->
 
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio-Ph</title>
+
+    <script src="menu.js" defer></script>
+
+    <title>Portfólio-Ph</title>
 </head>
 <body>
 <header>  
@@ -35,9 +38,32 @@
 
        <div class="btn-contato">
         <a href="#formulário">
-            <button>Contato</button>
+          
         </a>
        </div><!--btn-contato-->
+
+       <div class="btn-abrir-menu" id="btn-menu">
+       <i class="bi bi-list"></i>
+       </div>
+       <div class="menu-mobile" id="menu-mobile">
+       <div class="btn-fechar">
+        <i class="bi bi-x-lg"></i>
+       </div>
+       
+       <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+       </div><!--menu-mobile-->
+       <div class="overlay-menu" id="overlay-menu"></div>
+
+    
         </div><!--interface-->
 </header>
 
