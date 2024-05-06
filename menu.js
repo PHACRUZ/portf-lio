@@ -1,6 +1,6 @@
 let btnMenu = document.getElementById('btn-menu')
-let menu = document.getElementsById('menu-mobile')
-let overlay = document.getElementsById('overlay-menu')
+let menu = document.getElementById('menu-mobile')
+let overlay = document.getElementById('overlay-menu')
 
 
 btnMenu.addEventListener('click', ()=>{
