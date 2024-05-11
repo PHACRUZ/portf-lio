@@ -14,6 +14,9 @@
 
 	<link rel="stylesheet" type="text/css"
 	href="estiloo.css">
+
+	<script src="menu.js" defer></script>
+
 	<title>My Angel</title>
 
 </head>
@@ -29,15 +32,35 @@
 	      <li><a href="indexx.html">HOME</a></li>
 	      <li><a href="biografia.html">BIOGRAFIA</a></li>
 		  <li><a href="#">CAMPANHAS PUBLICITARIAS</a></li>
-		  <li><a href="#"></a></li>
 	     </ul>
 	     </nav>
 
-	    <div class="btn-contato">
-	    <a href="contato.html">
-	    	<button>Contato</button>
-	    </a>		
-<nav class="menu-desktop"><!--menu-desktop"porque vamos deixar o site responsivo, porque futuramente vamos deixar o site no celular-->
+		 <div class="btn-contato">
+			<a href="contato.html">
+			<button>Contato</button>
+			</a>
+
+		</div><!--btn-contato-->
+        <div class="btn-abrir-menu" id="btn-menu">
+		<i class="bi bi-list"></i>
+		</div>
+		<div class="menu-mobile" id="menu-mobile">
+		<div class="btn-fechar">
+			<i class="bi bi-x-lg"></i>
+		</div>
+		
+		
+		<nav>
+			<ul>
+				<li><a href="indexx.html">HOME</a></li>
+				<li><a href="biografia.html">BIOGRAFIA</a></li>
+				<li><a href="#">CAMPANHAS PUBLICITARIAS</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
+			   </ul>
+			   </nav>
+
+</div><!--menu--mobile-->
+<div class="overlay-menu"></div>
 </div><!--interface pq ela serve para limitar os limites do meu site-->		
 </header>
 
